@@ -20,7 +20,6 @@ class HomePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Boas-vindas
             const Text(
               "Bem-vindo, Thiago!",
               style: TextStyle(
@@ -92,7 +91,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  // Widget para criar os atalhos
+  // Widget to create shortcut cards
   Widget _buildShortcutCard({
     required IconData icon,
     required String label,
@@ -104,7 +103,7 @@ class HomePage extends StatelessWidget {
       child: InkWell(
         borderRadius: BorderRadius.circular(16),
         onTap: () {
-          // Aqui você pode navegar para outra tela
+          // Navigation yet to be implemented
         },
         child: Center(
           child: Column(
