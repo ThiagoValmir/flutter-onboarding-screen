@@ -1,4 +1,4 @@
-# Minha Jornada
+# Telas de Introdução em Flutter
 
 A ideia desse projeto é ser um caso de estudo sobre telas de introdução em Flutter, explorando as funcionalidades do **PageView**, o pacote **smooth_page_indicator** e praticar conceitos de navegação e design. 
 
